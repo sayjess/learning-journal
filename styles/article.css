@@ -1,0 +1,23 @@
+.article-section {
+    margin-top: 2rem;
+}
+
+.article-section > h4 {
+    font-size: 0.75rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.article-section > img {
+    max-width: 100%;
+    min-width: 100%;
+    padding-block: 2.188rem;
+}
+
+@media (min-width: 600px) {
+    .article-section > h4,
+    .article-section > h2,
+    .article-section > p {
+        padding-inline: 7.563rem;
+    }    
+}
