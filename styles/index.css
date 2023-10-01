@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-.header, section, footer {
+.header, .section-container, footer {
     padding-inline: 1.25rem;
 }
 
@@ -58,14 +58,18 @@ li {
 
 .section-container {
     margin-top: 2.215rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .blog {
     margin-bottom: 2.563rem;
+    flex: 1 400px;
 }
 
 .blog > img {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 0.875rem;
     object-fit: cover;
 }
@@ -120,11 +124,6 @@ footer {
 
 @media (min-width: 600px) {
 
-    header,
-    section,
-    footer {
-        padding-inline: 3.313rem;
-    }
     p {
         font-size: 1.5rem;
     }
@@ -146,8 +145,6 @@ footer {
     /* BLOG */
 
     .section-container {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
     }
 
