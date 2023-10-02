@@ -16,8 +16,8 @@ a {
     text-decoration: none;
 }
 
-.header, .section-container, footer {
-    padding-inline: 1.25rem;
+.header, .section-container, section, footer {
+    padding-inline: 1.5rem;
 }
 
 /* HEADER */
@@ -128,6 +128,9 @@ footer {
         font-size: 1.5rem;
     }
 
+    .header, .section-container, section, footer {
+        padding-inline: 3rem;
+    }
     /* HEADER */
 
     header {
